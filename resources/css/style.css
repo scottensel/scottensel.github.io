@@ -733,4 +733,24 @@ footer p {
     opacity: 1;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
+#myBtn {
+  position: fixed;
+  bottom: 3px;
+  right: 8px;
+  z-index: 99;
+  font-size: 8px;
+  background-color:transparent;
+  border-color:transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+#myBtn:hover { ;
+}
