@@ -733,10 +733,6 @@ footer p {
     opacity: 1;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 #myBtn {
   position: fixed;
   bottom: 3px;
@@ -752,5 +748,6 @@ html {
   border-radius: 2px;
 }
 
-#myBtn:hover { ;
+#myBtn:hover {
+    ;
 }
