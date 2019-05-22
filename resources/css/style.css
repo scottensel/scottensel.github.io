@@ -242,14 +242,27 @@ input[type=submit]:active {
 /* ----------------------------------------------- */
 /* HEADER */
 /* ----------------------------------------------- */
+/*
 
+html {
+  background: url(images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+-->
+*/
 header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url(img1/IMG_9183.jpeg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url(img1/IMG_9183.jpeg);
-    background-size: cover;
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(img1/IMG_9183.jpeg);
+    background-image: url(img1/IMG_9183.jpeg) no-repeat center center fixed;
     background-position : center;
     height: 100vh;
     background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .hero-text-box {
