@@ -260,16 +260,18 @@ input[type=submit]:active {
 
 }
 */
-header{
+.header{
     background: url(img1/IMG_9183.jpeg) no-repeat center center fixed;
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(img1/IMG_9183.jpeg);
+
+    height: 100%;
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position : center center;
     background-repeat: no-repeat;
-    min-height: 100vh;
 }
 /*
 .hero-text {
