@@ -257,7 +257,8 @@ header {
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(img1/IMG_9183.jpeg);
     background-image: url(img1/IMG_9183.jpeg) no-repeat center center fixed;
     background-position : center;
-    height: 100vh;
+    min-height: 100vh;
+    min-width: 100vw;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
