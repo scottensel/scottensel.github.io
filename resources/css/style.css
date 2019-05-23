@@ -275,17 +275,7 @@ input[type=submit]:active {
 
 /* The switch - the box around the slider */
 .switch-wrapper {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-  align-items: center;
-
-  em {
-    margin-left: 0px;
-    font-size: 1rem;
-  }
+    display: inline-block
 }
 .switch {
   position: relative;
