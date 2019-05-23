@@ -276,7 +276,7 @@ input[type=submit]:active {
 /* The switch - the box around the slider */
 .switch-wrapper {
     display: inline-block;
-    margin-left: 74%;
+    margin-left: 72%;
 }
 .switch {
   position: relative;
