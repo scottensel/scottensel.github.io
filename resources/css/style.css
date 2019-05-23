@@ -500,7 +500,7 @@ header{
 /* ----------------------------------------------- */
 
 .section-testimonials {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(img1/IMG_04681.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(img1/IMG_04681.jpeg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
