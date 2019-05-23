@@ -3,7 +3,23 @@ Orange color: #e67e22
 
 */
 
+:root {
+    --primary-color: white;
+    --secondary-color: #f4f4f4;
+    --font-color: black;
+    --font-color2: #313131;
+    --footer-color: #333;
+    --link: blue;
+}
 
+[data-theme="dark"] {
+    --primary-color: #313131;
+    --secondary-color: #242424;
+    --font-color: #D8D7D7;
+    --font-color2: #BABABA;
+    --footer-color: #171717;
+    --link: #F6C687;
+}
 /* ----------------------------------------------- */
 /* BASIC SETUP */
 /* ----------------------------------------------- */
@@ -14,15 +30,19 @@ Orange color: #e67e22
     box-sizing: border-box;
 }
 
-html,
-body {
-    background-color: #fff;
-    color: #555;
+html, body {
+    background-color: var(--primary-color);
+    color: var(--font-color);
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
+}
+
+.section-steps {
+    background-color: var(--secondary-color);
+    color: var(--font-color);
 }
 
 .clearfix {zoom: 0}
@@ -78,6 +98,27 @@ h2 {
     letter-spacing: 1px;
 }
 
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+
+}
+h4 {font-size: 140%;
+    text-align: center;
+    margin-bottom: 15px;
+     text-transform: uppercase;
+    color: #fff}
+
 h5
 {font-size: 100%;
     word-spacing: 2px;
@@ -93,27 +134,6 @@ h5:after {
     content: " ";
     width: 100px;
     margin: 0 ;
-    margin-top: 30px;
-}
-
-h3 {
-    font-size: 110%;
-    margin-bottom: 15px;
-
-}
-h4 {font-size: 140%;
-    text-align: center;
-    margin-bottom: 15px;
-     text-transform: uppercase;
-    color: #fff}
-
-h2:after {
-    display: block;
-    height: 2px;
-    background-color: #e67e22;
-    content: " ";
-    width: 100px;
-    margin: 0 auto;
     margin-top: 30px;
 }
 
@@ -162,6 +182,18 @@ font-size: 90%;
     margin-top: -5px;
 }
 
+.icon-medium {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 200%;
+    margin-right:;
+
+    /*secrets to align text and icons*/
+    line-height: 120%;
+    vertical-align: middle;
+}
 /* ----- LINKS ----- */
 
 a:link,
@@ -174,9 +206,8 @@ a:visited {
     transition: border-bottom 0.2s, color 0.2s;
 }
 
-a:hover,
-a:active {
-    color: #555;
+a:hover, a:active {
+    color: var(--link);
     border-bottom: 1px solid transparent;
 }
 
@@ -238,6 +269,81 @@ input[type=submit]:active {
     color: #fff;
 }
 
+/* ----------------------------------------------- */
+/* Switch to dark mode */
+/* ----------------------------------------------- */
+
+/* The switch - the box around the slider */
+.switch-wrapper {
+  display: flex;
+  align-items: center;
+
+  em {
+    margin-left: 0px;
+    font-size: 1rem;
+  }
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #e67e22;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #e67e22;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
 
 /* ----------------------------------------------- */
 /* HEADER */
@@ -342,17 +448,20 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.98);
-    box-shadow: 0 2px 2px #efefef;
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    box-shadow: 0 2px 2px var(--secondary-color);
     z-index: 9999;
 }
 
-.sticky .main-nav { margin-top: 18px; }
+.sticky .main-nav {
+    margin-top: 18px;
+}
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
     padding: 16px 0;
-    color: #555;
+    color: var(--font-color2);
 }
 
 .sticky .logo { display: none; }
@@ -421,9 +530,7 @@ header{
 /* HOW IT WORKS SECTION */
 /* ----------------------------------------------- */
 
-.section-steps {
-    background-color: #f4f4f4;
-}
+/* Color options are at the top */
 
 .steps-box {
     margin-top: 30px;
@@ -644,7 +751,7 @@ input[type=checkbox] {
 /* ----------------------------------------------- */
 
 footer {
-    background-color: #333;
+    background-color: var(--footer-color);
     padding: 50px;
     font-size: 80%;
 }
@@ -776,7 +883,3 @@ html {
 #myBtn:hover {
  bottom: 10px;
 }
-
-/* ----------------------------------------------- */
-/* Switch to dark mode */
-/* ----------------------------------------------- */
