@@ -451,6 +451,7 @@ header{
 
 .sticky .main-nav {
     margin-top: 18px;
+    margin-bottom: 4px;
 }
 
 .sticky .main-nav li a:link,
