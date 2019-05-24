@@ -379,23 +379,17 @@ header{
 
 .hero-image-s {
     background: url(img1/IMG_9183.jpeg) no-repeat center center fixed;
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(img1/IMG_9183.jpeg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(img1/IMG_9183.jpeg);
     background-size: cover;
     background-position : center center;
     background-repeat: no-repeat;
-    height: auto;
-    position: relative;
+    position: fixed;
 }
 
 .hero-text-box-s {
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center
 }
@@ -422,6 +416,9 @@ header{
         padding: 0 4%;
     }
 
+    .hero-image-s{
+        background-size: contain;
+    }
 }
 
 .logo {
