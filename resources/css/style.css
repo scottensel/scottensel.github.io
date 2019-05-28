@@ -391,7 +391,7 @@ input:checked + .slider:before {
     }
 
     .hero-image {
-        background-size: contain;
+        background-size: 100% 100%;
         background-attachment: scroll;
         width: 100%;
 
