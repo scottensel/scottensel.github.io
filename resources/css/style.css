@@ -891,14 +891,19 @@ html {
         width: 100%;
         padding: 0 3%;
     }
+
     .hero-image {
         background-size: 100% auto;
+        background-attachment: scroll;
         width: 100%;
+        background-repeat: repeat-y;
     }
 
     .section-testimonials{
         background-size: 100% auto;
+        background-attachment: scroll;
         width: 100%;
+        background-repeat: repeat-y;
     }
 }
 
@@ -911,11 +916,14 @@ html {
 
     .hero-image {
         background-size: 100% auto;
+        background-attachment: scroll;
         width: 100%;
+        background-repeat: repeat-y;
     }
 
     .section-testimonials{
         background-size: 100% auto;
+        background-attachment: scroll;
         width: 100%;
         background-repeat: repeat-y;
     }
