@@ -388,6 +388,11 @@ input:checked + .slider:before {
     background-attachment: scroll;
     width: 100%;
     }
+    .section-testimonials{
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    width: 100%;
+    }
 }
 
 /* Small phones to small tablets: from 481px to 767px */
@@ -401,6 +406,12 @@ input:checked + .slider:before {
         background-size: 100% 100%;
         background-attachment: scroll;
         width: 100%;
+    }
+
+    .section-testimonials{
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    width: 100%;
     }
 
     .switch-wrapper {
