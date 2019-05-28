@@ -276,8 +276,11 @@ input[type=submit]:active {
 /* The switch - the box around the slider */
 .switch-wrapper {
     display: inline-block;
-    margin-left: 69%;
+    margin-left: 75%;
+    position: relative;
+    margin-right: -30px
 }
+
 .switch {
   position: relative;
   display: inline-block;
@@ -384,6 +387,8 @@ header{
     background-position : center center;
     background-repeat: no-repeat;
     position: fixed;
+    width: 100%;
+    height: auto;
 }
 
 .hero-text-box-s {
