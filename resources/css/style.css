@@ -347,18 +347,6 @@ input:checked + .slider:before {
 /* HEADER */
 /* ----------------------------------------------- */
 
-header{
-    background: url(img1/IMG_9183.jpeg) no-repeat center center fixed;
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(img1/IMG_9183.jpeg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position : center center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-}
-
 .hero-image {
     background: url(img1/IMG_9183.jpeg) no-repeat center center fixed;
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(img1/IMG_9183.jpeg);
@@ -380,28 +368,9 @@ header{
     transform: translate(-50%, -50%);
 }
 
-.hero-image-s {
-    background: url(img1/IMG_9183.jpeg) no-repeat center center fixed;
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(img1/IMG_9183.jpeg);
-    background-size: cover;
-    background-position : center center;
-    background-repeat: no-repeat;
-    position: fixed;
-    width: 100%;
-    height: auto;
-}
-
-.hero-text-box-s {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center
-}
-
 /* Big tablet to 1200px (widths smaller taht the 1140px row) */
 @media only screen and (max-width: 1200px) {
-    .hero-text-box-s {
+    .hero-text-box {
         width: 100%;
         padding: 0 2%;
     }
@@ -409,20 +378,23 @@ header{
 
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
-    .hero-text-box-s {
+    .hero-text-box {
         width: 100%;
         padding: 0 3%;
     }
 }
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
-    .hero-text-box-s {
+    .hero-text-box {
         width: 100%;
         padding: 0 4%;
     }
 
-    .hero-image-s{
+    .hero-image {
         background-size: contain;
+        background-attachment: scroll;
+        width: 100%;
+
     }
 
     .switch-wrapper {
