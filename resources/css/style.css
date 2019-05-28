@@ -424,6 +424,13 @@ header{
     .hero-image-s{
         background-size: contain;
     }
+
+    .switch-wrapper {
+    display: inline-block;
+    margin-left: 60%;
+    position: relative;
+    }
+
 }
 
 .logo {
