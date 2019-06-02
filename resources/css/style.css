@@ -822,9 +822,6 @@ footer p {
     margin-top: 20px;
 }
 
-
-
-
 /* ----------------------------------------------- */
 /* Animations */
 /* ----------------------------------------------- */
@@ -877,11 +874,10 @@ html {
  bottom: 10px;
 }
 
-.img-resize{
-    height: 400px;
-    width: 400px;
+img.img-resize{
+    height: 350px;
+    width: 350px;
 }
-
 
 /* ----------------------------------------------- */
 /* For hero image sizing*/
@@ -945,7 +941,7 @@ html {
     position: relative;
     }
 
-    .img-resize{
+    img.img-resize{
         height: 300px;
         width: 300px;
     }
@@ -954,7 +950,7 @@ html {
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 480px) {
-    .img-resize{
+    img.img-resize{
         height: 200px;
         width: 200px;
     }
