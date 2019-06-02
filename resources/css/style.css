@@ -877,6 +877,10 @@ html {
  bottom: 10px;
 }
 
+.img-resize{
+    height: 400px;
+    width: 400px;
+}
 
 /* try again*/
 /* ----------------------------------------------- */
@@ -939,6 +943,11 @@ html {
     display: inline-block;
     margin-left: 60%;
     position: relative;
+    }
+
+    .img-resize{
+        height: 300px;
+        width: 300px;
     }
 
 }
