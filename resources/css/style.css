@@ -882,7 +882,7 @@ html {
     width: 400px;
 }
 
-/* try again*/
+
 /* ----------------------------------------------- */
 /* For hero image sizing*/
 /* ----------------------------------------------- */
@@ -952,6 +952,18 @@ html {
 
 }
 
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 480px) {
+    .img-resize{
+        height: 200px;
+        width: 200px;
+    }
+
+}
+
+/* ----------------------------------------------- */
+/* For School Photos*/
+/* ----------------------------------------------- */
 .center-img{
     text-align: center;
 }
