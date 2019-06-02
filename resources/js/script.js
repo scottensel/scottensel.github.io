@@ -105,10 +105,12 @@ const toggleSwitch = document.querySelector('.switch input[type="checkbox"]');
 function switchTheme(e) {
     if (e.target.checked) {
         document.documentElement.setAttribute('data-theme', 'dark');
+        $('#img-switch').attr('src','resources/img/university-of-maryland-1-logo-svg-vector.png');
         localStorage.setItem('theme', 'dark'); //add this
     }
     else {
         document.documentElement.setAttribute('data-theme', 'light');
+        $('#img-switch').attr('src','resources/img/university-of-maryland-1-logo-svg-vector.svg');
         localStorage.setItem('theme', 'light'); //add this
     }
 }
@@ -122,5 +124,6 @@ if (currentTheme) {
 
     if (currentTheme === 'dark') {
         toggleSwitch.checked = true;
+        $('#img-switch').attr('src','resources/img/university-of-maryland-1-logo-svg-vector.png');
     }
 }
