@@ -189,6 +189,21 @@ font-size: 90%;
     margin-top: -5px;
 }
 
+.icon-small-gray {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: darkgray;
+    font-size: 120%;
+    margin-right: 10px;
+
+
+    /*secrets to align text and icons*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
 .icon-medium {
     display: inline-block;
     width: 30px;
