@@ -48,7 +48,7 @@
 }
 
 
-@media only screen and (max-width: 812px) {
+@media only screen and (max-width: 820px) {
     .main-nav { display: none; }
     .mobile-nav-icon {display: inline-block;}
 
