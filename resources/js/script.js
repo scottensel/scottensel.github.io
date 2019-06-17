@@ -127,3 +127,6 @@ if (currentTheme) {
         $('#img-switch').attr('src','resources/img/university-of-maryland-1-logo-svg-vector.png');
     }
 }
+
+$("[data-menu-underline-from-center] a").addClass("underline-from-center");
+
