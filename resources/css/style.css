@@ -1039,3 +1039,7 @@ img.img-resize{
     float: left;
     padding: 5px;
 }
+
+p {
+  text-indent: 5%;
+}
