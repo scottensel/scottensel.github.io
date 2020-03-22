@@ -942,7 +942,11 @@ img.img-resize{
         width: 100%;
         padding: 0 2%;
     }
-
+    
+    img.img-resize{
+        height: 260px;
+        width: 260px;
+    }
 }
 
 /* Small tablet to big tablet: from 768px to 1023px */
@@ -964,6 +968,11 @@ img.img-resize{
         background-attachment: scroll;
         width: 100%;
         background-repeat: repeat-y;
+    }
+    
+    img.img-resize{
+        height: 220px;
+        width: 220px;
     }
 }
 
@@ -995,8 +1004,8 @@ img.img-resize{
     }
 
     img.img-resize{
-        height: 300px;
-        width: 300px;
+        height: 210px;
+        width: 210px;
     }
 
 }
