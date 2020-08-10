@@ -1,5 +1,7 @@
 /*
 Orange color: #e67e22
+Cyan color: #00FFFF
+purple color: #0E26B1
 
 */
 
@@ -97,6 +99,8 @@ h1 {
     font-size: 300%;
     word-spacing: 4px;
     letter-spacing: 1px;
+    font-weight: 400;
+
 }
 
 h2 {
@@ -125,8 +129,10 @@ h3 {
 h4 {font-size: 140%;
     text-align: center;
     margin-bottom: 15px;
-     text-transform: uppercase;
-    color: #fff}
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 395;
+}
 
 h5
 {font-size: 100%;
@@ -168,6 +174,11 @@ font-size: 90%;
     margin-left: 15%;
 }
 
+
+.try_center {
+    text-align: center;
+    vertical-align: middle;
+}
 
 /* ----- ICONS ----- */
 .icon-big {
