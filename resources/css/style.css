@@ -180,6 +180,17 @@ font-size: 90%;
     vertical-align: middle;
 }
 
+.align_skills_text{
+    text-align: left;
+    vertical-align: top;
+}
+
+.align_skills{
+    padding-left: 30%;
+    text-align: middle;
+    vertical-align: top;
+}
+
 /* ----- ICONS ----- */
 .icon-big {
     font-size: 350%;
@@ -195,6 +206,19 @@ font-size: 90%;
     color: #e67e22;
     font-size: 120%;
     margin-right: 10px;
+
+    /*secrets to align text and icons*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+.icon-small2 {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
 
     /*secrets to align text and icons*/
     line-height: 120%;
