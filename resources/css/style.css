@@ -241,6 +241,42 @@ font-size: 90%;
     margin-top: -5px;
 }
 
+
+.push_right{
+    margin-left: 15%;
+    vertical-align: top;
+    display: inline-block;
+    margin-right: -15%;
+/*    text-align: right;*/
+
+}
+
+.icon-skills {
+    display: inline-block;
+    width: 23px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+
+    /*secrets to align text and icons*/
+    line-height: 120%;
+    vertical-align: top;
+/*    margin-top: -5px;*/
+}
+
+.icon-skills-g {
+    display: inline-block;
+    width: 23px;
+    text-align: center;
+    color: darkgray;
+    font-size: 120%;
+
+    /*secrets to align text and icons*/
+    line-height: 120%;
+    vertical-align: top;
+/*    margin-top: -5px;*/
+}
+
 .icon-medium {
     display: inline-block;
     width: 30px;
