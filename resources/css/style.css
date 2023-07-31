@@ -724,7 +724,7 @@ input:checked + .slider:before {
 /* ----------------------------------------------- */
 .section-testimonials {
     background: url(img1/IMG_04681.jpeg) no-repeat center center fixed;
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img1/IMG_04681.jpeg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img1/IMG_04681.jpeg);
     background-size: cover;
     color: white;
     background-attachment: fixed;
