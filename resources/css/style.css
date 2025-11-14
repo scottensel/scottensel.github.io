@@ -13,7 +13,7 @@ purple color: #0E26B1
     --footer-color: #333;
     --link: blue;
     --mobi: #fff;
-    --accent-color: #e67e22;
+    --accent-color: #003594;
 }
 
 [data-theme="dark"] {
@@ -24,7 +24,7 @@ purple color: #0E26B1
     --footer-color: #171717;
     --link: #F6C687;
     --mobi: #D8D7D7;
-    --accent-color: #e67e22;
+    --accent-color: #FFB81C;
 }
 
 /* ----------------------------------------------- */
