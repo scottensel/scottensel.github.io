@@ -2,7 +2,8 @@
 Orange color: #e67e22
 Cyan color: #00FFFF
 purple color: #0E26B1
-
+#CC00FF
+#B61BE1
 */
 
 :root {
@@ -24,7 +25,7 @@ purple color: #0E26B1
     --footer-color: #171717;
     --link: #F6C687;
     --mobi: #D8D7D7;
-    --accent-color: #FFB81C;
+    --accent-color: #003594;
 }
 
 /* ----------------------------------------------- */
