@@ -645,6 +645,41 @@ input:checked + .slider:before {
 }
 
 
+.meal-photo {
+    position: relative; /* add this to the existing rule */
+}
+
+.photo-caption {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 10;
+    color: #fff;
+    font-size: 75%;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.45);
+    padding: 3px 8px;
+    border-radius: 3px;
+    pointer-events: none;
+}
+
+.photo-caption {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.meal-photo:hover .photo-caption {
+    opacity: 1;
+}
+
+.section-testimonials .photo-caption,
+.section-testimonials2 .photo-caption,
+.section-testimonials3 .photo-caption,
+.hero-image .photo-caption {
+    opacity: 1;
+}
 
 /* ----------------------------------------------- */
 /* HOW IT WORKS SECTION */
@@ -728,6 +763,98 @@ input:checked + .slider:before {
 .section-testimonials {
     background: url(img1/IMG_04681.jpeg) no-repeat center center fixed;
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.1)), url(img1/IMG_04681.jpeg);
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+    min-height: 50%;
+    background-position : center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img {
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+
+/* ----------------------------------------------- */
+/* TESTIMONIALS */
+/* ----------------------------------------------- */
+.section-testimonials2 {
+    background: url(img1/IMG_9340.jpeg) no-repeat center center fixed;
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.1)), url(img1/IMG_9340.jpeg);
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+    min-height: 50%;
+    background-position : center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img {
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* ----------------------------------------------- */
+/* TESTIMONIALS */
+/* ----------------------------------------------- */
+.section-testimonials3 {
+    background: url(img1/IMG_9746.jpeg) no-repeat center center fixed;
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.1)), url(img1/IMG_9746.jpeg);
     background-size: cover;
     color: white;
     background-attachment: fixed;
