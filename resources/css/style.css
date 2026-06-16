@@ -663,9 +663,6 @@ input:checked + .slider:before {
     padding: 3px 8px;
     border-radius: 3px;
     pointer-events: none;
-}
-
-.photo-caption {
     opacity: 0;
     transition: opacity 0.3s;
 }
